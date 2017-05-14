@@ -1,0 +1,128 @@
+/*article.news-publication.type-news-publication .entry-title {*/
+    /*display:none;*/
+/*}*/
+
+div.publications-title{
+    margin-top: 80px;
+    display: block;
+    /*margin-bottom: 106px;*/
+}
+
+
+.publications-item-container {
+    height:auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*.archive-header {*/
+    /*display: none;*/
+/*}*/
+
+.publications-thumb img {
+    width: 130px;
+    height: auto;
+}
+
+
+.publications-title a{
+    color: black;
+    font-weight: bold;
+}
+
+.publications-item-container span.date{
+    /*margin-left: 10px;*/
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.annual-reports .directory-link, .reports-and-breifings .directory-link {
+    color: red;
+    font-size: 18px;
+    /*text-align: center;*/
+}
+
+
+.post_tags{
+    padding:10px 5px;
+    margin-bottom: 20px;
+}
+
+.publication-directory {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tag-item {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.tag-item a {
+
+    background-color: #eee;
+    padding: 10px 10px;
+    border-radius: 3px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.publication-directory a:active {
+    color:white;
+    background:red;
+    padding: 5px 10px;
+}
+
+.directory-link a {
+    color:red;
+}
+
+.directory-link {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 10px;
+}
+
+.optional-link a{
+    color:#f00;
+}
+
+.optional-link {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+.publications-item-container {
+    margin-bottom:30px;
+}
+
+.post-type-archive-publication h3.page-title {
+    color:#f00;
+    font-weight:bold;
+}
+
+.publications-thumb img {
+    width:100%;
+}
+
+.post-type-archive-publication .page-header p {
+    font-size:18px;
+    max-width: 960px;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+.site-main.annual-reports .red-action{
+    width: auto;
+    max-width: 500px;
+}
+
+.annual-reports .page-header {
+    margin-top: 0px;
+}

@@ -1,0 +1,432 @@
+.header-container-inner {
+    /*height: 45px;*/
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+
+.header-container-outer {
+    background-color: black;
+}
+
+.header-container-inner.container {
+    max-width:960px;
+}
+
+.top-black-header{
+    padding-left: 0px;
+    display: inline-block;
+    list-style: none;
+    float: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+.at4-follow {
+    position:absolute!important;
+}
+
+.main-site-nav li a{
+    color: #4A4A4A;
+    font-size: 20px;
+    text-transform:uppercase;
+}
+
+.site-nav.main-site-nav li {
+    border-right: 1px solid #4A4A4A;
+    padding-right: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.main-site-navigation {
+    /*margin-top: 80px;*/
+    margin-top: 25px;
+}
+
+.red.donate {
+    float: right;
+    background-color: #FF0000;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+
+p.yd-tag{visibility:hidden;}
+
+
+.site-nav-black a.last {
+    border:0px;
+}
+a[title="donate-button"] {
+    float: right;
+    background-color: #FF0000!important;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white!important;
+    font-weight: bold;
+}
+
+.ls-slide img {
+    max-width:100%
+}
+
+
+.dropdown.dropdown-vertical.dropdown-align-left {
+    width:100%;
+}
+
+.menu-item.parent {
+    display:inline-block;
+    float:left;
+    border-top: 0px;
+    border-right: 2px solid #000;
+}
+
+.menu-item.parent a{
+    /*border-right: 2px solid #000;*/
+    border-radius: 0px;
+}
+
+li.current-menu-ancestor a, li.current-menu-ancestor a:visited, li.current-menu-ancestor a:link{
+    background-color:#ddd;
+    text-decoration:none!important;
+}
+
+/*li.current-menu-ancestor a:hover {*/
+    /*color:#F00;*/
+/*}*/
+
+li.current-menu-ancestor a{
+    background-color:transparent!important;
+    /*color:#f00!important;*/
+}
+
+li.sub-menu li.parent {
+    background-color:blue;
+
+}
+
+.mm-panels.mm-vertical {
+   background-color:#fff;
+}
+/*.menu-item {*/
+    /*overflow:auto;*/
+/*}*/
+
+ul.dropdown-vertical li {
+    border:0!important;
+    /*border-bottom: 1px solid #FF0000;*/
+    float: left!important;
+    display: inline-block;
+}
+
+.mm-opened> .mm-vertical.mm-panel, .mm-opened> .mm-next {
+    /*background:red!important;*/
+    /*color:white;*/
+
+    background: #f2f2f2;
+    color: black;
+}
+
+.mm-opened> .mm-vertical.mm-panel a:hover {
+    background-color:#ddd;
+    font-weight:bold;
+    color:black;
+}
+
+.menu-item a {
+    text-transform:uppercase;
+    text-shadow:none;
+}
+
+li.menu-item ul li {
+    display:block!important;
+    float:none;
+    width:100%;
+    clear:both;
+}
+
+li.menu-item ul li a{
+    display:block!important;
+}
+
+li.menu-item ul li a{
+    border:none;
+    font-size:20px;
+    /*padding:20px;*/
+}
+
+li.menu-item ul li ul>a{
+    font-size:10px;
+    padding:10px 5px;
+}
+
+
+li.menu-item ul li a:active {
+    /*padding:20px;*/
+}
+
+ul.dropdown li.parent>a {
+    display: inline-block;
+    border-left: 2px solid #000;
+    max-height: 24px;
+    padding-top: 0px;
+    padding-right: 5px!important;
+}
+ul.dropdown li.parent {
+    padding:5px 10px;
+}
+
+
+ul.dropdown li ul li.parent{
+    font-size:10px;
+}
+
+ul.dropdown li.parent.first-child>a{
+    border:0!important;
+}
+
+
+ul.dropdown li.parent:last-child >a{
+border-right: 2px solid #000;
+
+}
+
+
+ul.dropdown li.parent:hover {
+    background-color:#ddd;
+}
+
+.mm-opened {
+    z-index: 1000;
+}
+.main-site-nav {
+    /*overflow: hidden;*/
+}
+
+.main-site-header-outer {
+    margin-bottom: 20px;
+}
+
+.button-home, .links-mobile-only{
+    display:none!important;
+}
+
+.site-nav li, .site-nav-black li{
+    float: left;
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    /*border-right:1px solid #fff;*/
+}
+
+
+div#main-nav ul#menu-menu-1 #menu-item-1808 {
+    display:none!important;
+}
+
+
+.menu-donate-btn.show-in-footer{
+
+}
+.site-nav li.donate-link, .site-nav-black li.donate-link{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.top-black-header a{
+    color: #fff;
+    padding-right:5px;
+    padding-left:5px;
+    font-size: 15px;
+    border-right: 1px solid #fff;
+}
+
+.nav-header-search {
+    float: left;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.text-box input{
+    width: 100px;
+    /*height: 36px;*/
+    text-align: center;
+
+    /*margin-bottom: 5px;*/
+}
+
+.search-button button{
+    width: 60px;
+    height: 30px;
+    border-radius: 2px;
+    box-shadow: none;
+    border-color: transparent;
+    font-size: 13px;
+    text-align: center;
+    background-color: #ddd!important;
+
+}
+
+.search-button, .text-box {
+    float:left;
+    margin-top: 4px;
+}
+
+.search-button {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#search-form {
+    overflow: hidden;
+}
+
+/**Primary Logo Area*/
+.logo-container {
+    float: left;
+    width: 50%;
+}
+
+.logo-container img {
+    /*width: 100%;*/
+    /*width: 360px;*/
+    height: 64px;
+}
+
+.primary-site-header {
+    padding-top: 20px;
+}
+
+.primary-header-inner {
+    overflow: hidden;
+}
+
+.header-paragraph {
+    margin-top: 60px;
+    float:right;
+}
+
+.header-paragraph p {
+    color: #979797;
+}
+
+#mobile-menu-btn{
+    display:none;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.mobile-donate-button {
+    display:none;
+text-align:center;
+}
+
+
+.mobile-donate-button a {
+
+    padding: 7px 40px;
+    display: block;
+    /* height: 40px; */
+    background-color: #f00;
+    border-radius: 3px;
+    color: #fff!important;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    /* text-align: center; */
+    /* text-align: center!important; */
+    width: 150px;
+    float: right
+}
+
+.logo-container a{
+    display:block;
+}
+
+ul.dropdown li ul.sub-menu {
+    min-width:350px;
+}
+
+ul.dropdown li ul.sub-menu li a:hover {
+    background-color: #FF0000!important;
+    color:#fff;
+    display:block;
+}
+
+ul.dropdown li ul.sub-menu li ul li a:hover {
+    background-color: #FF0000!important;
+    color:#fff;
+    display:block;
+    /*padding:20px;*/
+    /*height:30px;*/
+}
+
+
+/*Social media*/
+
+div.social-icons-container .social-links a {
+    background-color: #000;
+    color: #fff;
+    width: 5em;
+    height: 3em;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 5em;
+    box-shadow: 0 .5em 0 rgba(0, 0, 0, .15);
+    transition: .3s;
+}
+
+div.social-icons-container .social-links a.facebook-link {
+     background-color: #3A5BB0;
+}
+
+.ig_action_bar.ig_hello.ig_hide.ig_top .ig_close{
+     margin-left: 30px;
+    background-color:#f5cf2c!important;
+}
+
+#at4-follow {
+    margin-right:30px!important;
+}
+
+
+.ccfic {
+    display:none;
+}
+.social-icons-container {
+    overflow:hidden;
+}
+
+div.social-links-container {
+   float:right;
+}
+
+/*div.shailan-dropdown-menu table{*/
+    /*width:100%;*/
+/*}*/
+
+div.ig_headline {
+    color: black;
+}
+
+div.ig_action_bar.ig_hello.ig_container {
+    background: gold !important;
+}
+
+div.ig_message p{
+    color:black;
+    font-weight:bold;
+    font-size:16px;
+}
+
+div.ig_action_bar.ig_hello .ig_button {
+    background-color:#fe0000;
+}

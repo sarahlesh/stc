@@ -1,0 +1,35 @@
+
+/**search page styling**/
+.search.search-results .entry-title a, .search.search-results .entry-title .more-link  {
+    color: #f00;
+}
+
+.search.search-results .entry-summary .more-link{
+    color: #f00;
+}
+
+.search.search-results article{
+    margin-bottom: 30px;
+}
+
+
+.search.search-results .content-area img{
+    display:none;
+}
+
+
+/*search box styling*/
+.search-button, .text-box {
+    margin-top:0px!important;
+}
+
+#searchform input[type=text] {
+    padding: 5px 15px;
+    border-radius: 1px;
+}
+
+#searchsubmit.btn {
+    padding: 5px 10px;
+    border-radius: 1px;
+    background-color: #ddd!important;
+}

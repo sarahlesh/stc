@@ -1,0 +1,28 @@
+.archive-blog.blog-thumb {
+    float:left;
+}
+
+.archive-blog.blog_post .entry-header {
+    float:right;
+}
+
+
+article.archive-blog.blog_post {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+article.archive-blog .entry-content {
+    display: none!important;
+}
+
+.single-blog .entry-header-details {
+    margin-bottom: 30px;
+}
+
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+}

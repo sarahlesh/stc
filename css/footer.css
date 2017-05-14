@@ -1,0 +1,491 @@
+/*.footer-nav-container-outer*/
+.canadian-programs {
+    background-image:url('../img/canadian-programs.jpg');
+    background-size: cover;
+}
+
+.work-around-the-globe {
+    background-image:url('../img/newborn-care-kit.jpg');
+    background-size: cover;
+}
+
+.news-and-views{
+    background-image:url('../img/news-views.jpg');
+    background-size: cover;
+}
+.img-link {
+    height:250px;
+    background-repeat:no-repeat;
+    background-position:left center;
+    /*max-width:30%;*/
+    /*margin-right:1%;*/
+}
+
+.whats-happening .container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.global-goals-tiny-img img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+h3.footer-nav-header.footer-links-nav-menu {
+    /*float:left;*/
+    /*display:inline-block;*/
+    /*margin-right: 10px;*/
+    /*margin-right: 10px;*/
+    text-align: center;
+}
+
+
+section.footer-links.footer-links-outer {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #fff;
+}
+
+.action-buttons-footer a{
+    text-transform: uppercase;
+    color: #fff;
+    border: 3px solid#fff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: bold;
+    min-width: 160px;
+    text-align:center;
+}
+
+.action-buttons-footer a.donate-now {
+    margin-right: 25px;
+}
+
+.whats-happening h2{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 40px;
+     margin-bottom: 10px;
+}
+
+.whats-happening-details h3 {
+    text-transform:uppercase;
+    font-size:20px;
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+.whats-happening-details{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.whats-happening .more-details {
+    text-align: center;
+    /*display: inline-block;*/
+    /*border: 2px solid black;*/
+    clear:both;
+}
+
+.whats-happening .more-details a{
+    border:2px solid black;
+    display:inline-block;
+    padding:10px 20px;
+    font-weight: normal;
+    border-radius:3px;
+    color:black;
+    text-transform:uppercase;
+}
+
+.footer-links-outer {
+    /*background-image: url('../img/footer-bg.png');*/
+    /*background-repeat: no-repeat;*/
+    background-color:#fff;
+    /*min-height: 800px;*/
+    /* max-height: 1000px; */
+    background-size: cover;
+    background-position: 20px;
+    border-top: 2px dotted gainsboro;
+}
+
+.footer-links-inner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-links {
+    color:#fff;
+}
+
+
+.container.accountability {
+margin-top:40px;
+
+}
+
+
+.footer-nav {
+    /*clear:both;*/
+    color:#fff;
+    margin-top: 50px;
+}
+
+.imagine-canada-container {
+    /*margin-top: 30px;*/
+    float:left;
+    display:inline-block;
+    text-align: center;
+}
+
+.contact-footer p {
+    font-size:12px;
+}
+
+.footer-address p {
+    color: white;
+}
+
+
+
+.address-section {
+    background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+.footer-ul {
+    overflow:hidden;
+}
+
+
+.accountability-img{
+    display: inline-block!important;
+    /*float: left;*/
+    /*margin-right: 30px!important;*/
+    /*text-align: center;*/
+}
+
+
+.accountability-img img {
+    display:block;
+    margin: 0 auto;
+
+}
+.accountability-row {
+    margin-bottom:40px;
+}
+
+.footer-menu .current_page_parent>a:hover{
+    background-color:transparent;
+}
+
+
+.footer-navigation-menu .current_page_item a .sub-menu {
+    color:black;
+    text-decoration:none;
+    font-weight:normal;
+}
+
+
+
+.footer-menu .page_item_has_children ul.children, .footer-menu ul.children li {
+    display:block!important;
+    margin-bottom: 10px;
+}
+
+.footer-menu ul li.page_item_has_children {
+    width: 25%;
+}
+
+
+.footer-black-nav ul {
+    overflow: hidden;
+    /* text-align: center; */
+    display: inline-block;
+    margin: auto;
+}
+
+.footer-black-nav a {
+    color: #fff;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    border-right: 1px solid #fff;
+}
+
+
+.row.footer-nav-container-outer {
+    background-color: #ddd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+.where-money-goes-container .inner-container {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+.where-money-goes-container .outer {
+    width:auto;
+}
+
+
+.where-money-goes-container img {
+    width:177px;
+    height:auto;
+}
+
+
+
+.contact-footer h5 {
+    font-size:12px;
+}
+.footer-img-container {
+    /*text-align: center;*/
+}
+.where-money-goes-container {
+    display:inline-block;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+.where-money-goes-container img {
+    /*width: 176px;*/
+    margin:0 auto;
+}
+
+.ic-logo {
+    width: 136px;
+    height: 117px;
+}
+
+.hc-logo {
+    width: 253px;
+    margin-top: 20px!important;
+}
+.right-footer {
+    float:right;
+    margin-top: 30px;
+}
+
+.footer-nav h3 {
+    font-family: "Avenir";
+    font-weight: 900;
+    margin-bottom: 15px;
+
+}
+
+.chart-legend p {
+    color:black;
+    font-weight:bold;
+}
+
+
+.square {
+    float: left;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.square-programs {
+    background: red;
+}
+
+.square-fundraising {
+
+    background: #842fa8;
+}
+
+.square-administration{
+
+    background: #76be1c;
+}
+
+
+
+
+.chart-legend {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+    min-width: 200px;
+    width: 200px;
+}
+
+.accountability-img h3 {
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.blurb-row-outer {
+    background: #f00;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.blurb-footer p{
+    color:white;
+    font-size:21px;
+    text-align: center
+}
+.footer-nav-list-container {
+    margin-bottom: 35px;
+    text-align:center;
+}
+
+div.footer-nav-list-container, div.footer-nav-list-container a {
+    color:#000!important;
+}
+
+
+.contact-footer h5 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.footer-nav-list-container li>a {
+    color:#fff;
+}
+
+
+.footer-navigation-menu .menu-parent-item, .has-no-children {
+    float:left;
+    display:inline-block;
+    overflow: hidden;
+    /* padding: 5px; */
+    margin-right: 5px;
+    max-width: 400px;
+    padding: 10px;
+    min-width: 20%;
+}
+
+.main-site-nav li.has-no-children a {
+    color: red!important;
+    /*font-weight: bold;*/
+}
+
+.footer-navigation-menu .menu-parent-item>a{
+    color: red;
+    font-weight: bold;
+}
+
+.footer-navigation-menu .sub-menu .menu-parent-item {
+    padding-left: 0px;
+    padding-bottom:0px;
+    padding-top:0px;
+
+}
+.footer-navigation-menu .sub-menu .menu-parent-item>a{
+    /*text-transform:uppercase!important;*/
+    padding-bottom:0px;
+    font-weight: normal;
+    color: #4a4a4a;
+
+}
+
+.footer-navigation-menu .sub-menu .menu-parent-item>.sub-menu {
+    padding-bottom:0px;
+    display:none;
+}
+
+
+.footer-navigation-menu .sub-menu a {
+    text-transform:capitalize;
+    font-size: 16px;
+    /*font-weight: bold;*/
+    margin-bottom: 5px;
+}
+
+.footer-navigation-menu .menu-donate-btn {
+    display: inline-block;
+    display: none;
+}
+
+.footer-navigation-menu .main-site-nav .menu-donate-btn.show-in-footer {
+    display:block;
+}
+
+.footer-navigation-menu .current-menu-item.page-item-26 li  {
+    font-weight:normal!important;
+}
+
+.footer-navigation-menu .menu-donate-btn a{
+    padding: 7px 40px;
+    height: 40px;
+    background-color: #f00!important;
+    border-radius: 3px;
+    color: #fff!important;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+
+.footer-navigation-menu .current_page_item.menu-parent-item .menu-item-object-page{
+    color:#f00;
+    font-weight:normal;
+    text-decoration:none!important;
+}
+
+.footer-navigation-menu .current-menu-item {
+    color:#f00!important;
+    /*text-decoration:underline;*/
+    font-weight:bold;
+}
+
+
+
+div#main-nav ul#menu-menu-2.menu.main-site-nav.container .current_page_item .sub-menu li a{
+    background-color:transparent;
+    color: #000!important;
+}
+
+
+div.footer-navigation-menu ul#menu-menu-2.menu.main-site-nav.container .current_page_item .sub-menu li.current_page_item a:link {
+    background-color:transparent!important;
+}
+div.footer-navigation-menu ul#menu-menu-2 .sub-menu a{
+    background-color:transparent!important;
+    /*color: #4A4A4A!important;*/
+}
+
+div.footer-navigation-menu .sub-menu li.current_page_item a:link {
+    color:#4A4A4A!important;
+}
+
+
+
+
+div.footer-navigation-menu ul#menu-menu-2 ul.sub-menu li.menu-donate-btn.menu-item-2484 a {
+    background-color:#f00!important;
+}
+
+/*div#main-nav ul#menu-menu-2.menu.main-site-nav.container .current_page_item a:hover {*/
+    /*background-color:#f00;*/
+    /*color:#fff!important;*/
+/*}*/
+
+/*div.footer-navigation-menu.container ul#menu-menu-2 .menu-item-2484.show-in-footer {*/
+    /*display:block!important;*/
+/*}*/
+
+div.footer-navigation-menu ul#menu-menu-2 ul.sub-menu li.menu-item-2505 li.menu-donate-btn.show-in-footer.menu-item-2484a {
+    color:#fff!important;
+}
+
+div.footer-navigation-menu ul#menu-menu-2 li.menu-item-2505 li.menu-item-2504 ul.sub-menu a{
+    color:#4A4A4A!important;
+}

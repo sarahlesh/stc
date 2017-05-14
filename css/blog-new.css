@@ -1,0 +1,318 @@
+.blog img{
+    max-width: 100%;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog #primary{
+    overflow: visible !important;
+}
+
+.blog-posts{
+    max-width: calc(75% - 24px);
+    justify-content: space-between;
+    margin-right: 24px;
+}
+
+.blog .blog-posts .post{
+    flex: 1 0 365px;
+    max-width: 393.5px;
+    box-shadow: 0 2px 4px #979797;
+    margin-right: 24px;
+    margin-bottom: 30px;
+}
+
+.single-blog-meta{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 25px;
+    margin-top: 27px;
+}
+
+.single-blog-meta a, .single-blog-meta p{
+    color: #336666;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.blog-single-content{
+    margin-top: 45px;
+}
+
+.blog-single-content p{
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 0 0 25px 0;
+    font-weight: 100;
+
+}
+
+.blog-single-content .alignleft{
+    float: left;
+    margin-right: 50px;
+}
+
+.blog-single-content .alignright{
+   float: right;
+   margin-left: 50px; 
+}
+
+.blog-single-content .size-full{
+    margin: 50px 0;
+}
+
+.single-author-meta, .single-meta-date{
+    margin-left: 15px;
+    display: inline-block;
+}
+.single-post-content{
+    margin-right: 24px;
+}
+
+
+.sincerely{
+    clear: both;
+    max-width: 275px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.sincerely .author{
+    color: #3E6465;
+}
+
+.sincerely .avatar{
+    float: right;
+    border-radius: 50%;
+}
+
+
+.post-image{
+    min-height: 285px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.blog-sidebar{
+    background: #DDDDDD;
+    padding: 25px 0;
+    text-align: center;
+    flex:1;
+    max-width: 25%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+ .widget_search, .widget_text{
+    padding: 0 20px;
+ }
+
+ #text-2{
+    margin-top: 40px;
+ }
+
+.blog header h1{
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+    margin: 60px 0 10px;
+
+}
+
+.blog header p{
+    text-align: center;
+    color: #ED462F;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+
+
+.blog-archive-post-content{
+    padding: 45px 10px 25px;
+    max-width: 375px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.blog-sidebar input,.blog-sidebar #searchform input{
+    display: block;
+    padding: 20px 15px;
+    width: 100%;
+    border: 1px solid #BFBFBF;
+    float: none;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+
+.blog-sidebar #searchsubmit{
+    background-color: #ED462F !important;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+}
+
+#searchform::-webkit-input-placeholder { 
+    color: #A7A6A6;
+    font-size: 20px;
+}
+#searchform::-moz-placeholder { 
+    color: #A7A6A6;
+    font-size: 20px;
+}
+#searchform:-ms-input-placeholder { 
+    color: #A7A6A6;
+    font-size: 20px;
+}
+#searchform:-moz-placeholder { 
+    color: #A7A6A6;
+    font-size: 20px;
+}
+
+.blog-sidebar .widget-title{
+    margin-top: 40px;
+}
+
+.blog-sidebar .widget_categories a{
+    display: block;
+    color: black;
+    font-size: 25px;
+    padding: 15px 25px 15px 50px;
+    font-weight: 100;
+    text-align: left;
+
+    position: relative;
+}
+
+.blog-sidebar .widget_categories a:before{
+    content: url(http://savethechildren.ca/wp-content/themes/2015_save_the_children/img/green-arrow.png);
+    position: absolute;
+    left:20px;
+    top: 50%;
+    transform: translate(0, -50%);
+
+}
+
+.post-link{
+    color: black;
+    text-decoration: none;
+}
+
+.post-link:hover, .post-link:focus{
+    text-decoration: none;
+}
+
+.blog .post h2{
+    color: #336666;
+    font-weight: 700;
+    font-size: 22px;
+    min-height: 110px;
+}
+
+.blog .post p{
+    font-size: 22px;
+    font-weight: 100;
+    color: black;
+    min-height: 110px;
+}
+
+.post .read-more{
+    color: #ED462F;
+    text-decoration: underline; 
+}
+
+.blog .meta{
+    margin-top: 20px;
+}
+
+.meta-item:first-of-type{
+    margin-right: 15px;
+}
+
+.meta-item:last-of-type{
+    margin-left: 15px;
+}
+
+.blog-sidebar .widget_categories a:hover, .blog-sidebar .widget_categories a:focus{
+    background: white;
+    text-decoration: none;
+}
+
+.next-prev-posts{
+    width: 50%;
+    flex: 1 1 50%;
+    margin: 70px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #FF0000;
+    background-position: center;
+      max-height: 440px;
+}
+
+.next-prev-posts a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.next-prev-posts a:hover{
+    text-decoration: none;
+}
+
+.next-post a:hover h3:after, .next-post a:focus h3:after{
+    margin-left: 30px;
+
+}
+
+.prev-post a:hover h3:after, .prev-post a:focus h3:after{
+    margin-right: 30px;
+
+}
+
+.prev-next-content{
+    margin: 280px 0 15px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+.prev-next-content h3{
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.next-post h3:after{
+    content: url(http://savethechildren.ca/wp-content/themes/2015_save_the_children/img/green-arrow.png);
+    margin-left: 20px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.prev-post h3:before{
+    content: url(http://savethechildren.ca/wp-content/themes/2015_save_the_children/img/green-arrow-left.png);
+    margin-right: 20px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+@media (max-width: 990px){
+    .blog-posts, .single-post-content, .blog-sidebar{
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    @media (max-width: 660px){
+        h1.page-title{
+            font-size: 25px;
+        }
+        }
+}

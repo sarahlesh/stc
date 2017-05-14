@@ -1,0 +1,77 @@
+/*
+Theme Name: Save the Children Canada 2015
+Theme URI: https://www.yeeboodigital.com/
+Author: Yeeboo Digital Inc.
+Author URI: https://www.yeeboodigital.com/
+Description: A custom mobile responsive theme built for Save The Children Canada. 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, red, gray, white, green, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, custom post types, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: SaveTheChildren.ca
+
+
+*/
+
+
+/*Normalize css**/
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+
+
+@import url('css/reset.css');
+@import url('css/normalize.css');
+@import url('css/main.css');
+@import url('css/header.css');
+@import url('css/footer.css');
+@import url('css/homepage.css');
+@import url('css/blog-new.css');
+@import url('css/responsive.css');
+@import url('css/faqs.css');
+
+@font-face {
+    font-family: Avenir;
+    src: url('fonts/AvenirLTStd-Light.otf');
+    src: url('fonts/AvenirLTStd-Light.eot') format('embedded-opentype'),
+    url('fonts/AvenirLTStd-Light.svg') format('svg'),
+    url('fonts/AvenirLTStd-Light.ttf')format('ttf'),
+    url('fonts/AvenirLTStd-Light.woff')format('woff')
+}
+
+
+@font-face {
+    font-family: Gill_sans;
+    src: url('fonts/GillsSans.ttf');
+    src:url('fonts/gillssans-webfont.eot') format('embedded-opentype'),
+    url('fonts/gillssans-webfont.svg')format('svg'),
+    url('fonts/gillssans-webfont.woff') format('woff'),
+    url('fonts/gillssans-webfont.woff2') format('woff2')
+}
+
+
+@font-face {
+    font-family:Bebas_Neue;
+    src: url('fonts/bebasneue-webfont.eot');
+    src: url('fonts/BebasNeue.otf');
+    src: url('fonts/bebasneue-webfont.eot') format('embedded-opentype'),
+    url('fonts/bebasneue-webfont.svg')format('svg'),
+    url('fonts/bebasneue-webfont.ttf') format('truetype'),
+    url('fonts/bebasneue-webfont.woff') format('woff'),
+    url('fonts/bebasneue-webfont.woff2') format('woff2')
+}
+
+
+p.yd-tag {
+    color: #333;
+}
+
+p.yd-tag a {
+    color: #333;
+}

@@ -1,0 +1,225 @@
+/**First */
+#main-nav   {
+    min-height: 30px; /* set to the height you want your menu to be */
+    margin: 0 0 10px; /* just to give some spacing */
+    margin-top: 40px;
+}
+
+
+#main-nav li    {
+    display: block;
+    float: left;
+    line-height: 30px; /* this should be the same as your #main-nav height */
+    height: 30px; /* this should be the same as your #main-nav height */
+    margin: 0; padding: 0; /* only needed if you don't have a reset */
+    position: relative; /* this is needed in order to position sub menus */
+    z-index:100;
+}
+
+.mobile-donate-btn {
+    float: right;
+    /* background-color: #FF0000!important; */
+    /* padding: 5px 10px; */
+    /*border-radius: 3px;*/
+    color: white!important;
+    font-weight: bold;
+    border-right: 0;
+    padding: 0px;
+    /*border-radius:5px;*/
+
+}
+
+
+#main-nav ul li ul li a {
+    font-size: 19px;
+    padding-top:5px;
+}
+
+#main-nav .menu-donate-btn a {
+    padding: 7px 40px;
+    display: block;
+    height: 40px;
+    background-color: #f00;
+    border-radius: 3px;
+    color:#fff!important;
+}
+
+#main-nav .menu-donate-btn {
+    border-right: 0px;
+    /* margin-left: 20px; */
+    float: right;
+}
+
+#main-nav .menu-donate-btn a:hover {
+    background-color:#f10400;
+}
+
+
+#main-nav #menu-mainmenu .menu-parent-item>a:after, #main-nav .main-site-nav .menu-parent-item>a:after{
+    content:""; position:absolute; top: 45%; right:10px;width:0;height:0;
+    border-top:4px solid rgba(0,0,0,0.5);border-right:4px solid transparent;border-left:4px solid transparent }
+
+
+
+
+#main-nav #menu-mainmenu ul.dropdown li li.parent>a:after, #main-nav .main-site-nav ul.dropdown.menu-parent-item>a:after{
+    content:"";position:absolute;top: 40%; right:5px;width:0;height:0;
+    border-left:4px solid rgba(0,0,0,0.5);border-top:4px solid transparent;border-bottom:4px solid transparent }
+
+
+
+#main-nav #menu-mainmenu .sub-menu .menu-parent-item>a:after, #main-nav .main-site-nav .sub-menu .menu-parent-item>a:after {
+    content:"";position:absolute;top: 40%; right:5px;width:0;height:0;
+    border-left:4px solid rgba(0,0,0,0.5);border-top:4px solid transparent;border-bottom:4px solid transparent
+}
+
+
+#main-nav ul li a{
+    font-size:22px;
+}
+
+#main-nav ul {
+    background-color:#fff;
+    height:auto;
+    min-height:30px;
+}
+
+#main-nav ul li{
+    /*padding: 5px 10px;*/
+    display: inline-block;
+    float: left;
+    border-top: 0px;
+    border-right: 2px solid #000;
+}
+
+#main-nav ul li ul li {
+    border:0px;
+}
+
+#main-nav a:hover { text-decoration:none;}
+
+
+.sub-menu {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+/* level 1 list**/
+
+#main-nav ul li a  {
+    display: inline-block;
+    height: 30px;
+    line-height: 1.4;
+    color:#000!important;
+    padding: 0px 30px;
+    margin-bottom:10px;
+    /*padding: 6px 12px;*/
+
+}
+
+#main-nav ul li ul li:hover{
+    /*padding:30px;*/
+    background-color:red;
+}
+
+
+#main-nav ul li ul li {
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+#main-nav ul li ul li ul li a{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+#main-nav ul li ul li ul {
+    padding-bottom:0px;
+    padding-top:0px;
+}
+
+#main-nav li a:hover {
+    color: #fff!important;
+    background: #f00;
+    /*padding:10px 10px;*/
+}
+
+#main-nav ul li ul li:hover {
+    background:#f00;
+}
+
+#main-nav .current_page_parent>a:hover {
+    background-color:#f00!important;
+    color:#fff;
+}
+
+#main-nav .current-menu-ancestor>a:hover {
+    background-color:#f00!important;
+
+}
+
+/**Second **/
+
+#main-nav ul ul { /* this targets all sub menus */
+    display: none; /* hide all sub menus from view */
+    position: absolute;
+    top: 30px; /* this should be the same height as the top level menu -- height + padding + borders */
+    width:100%;
+    min-width:400px;
+    /*overflow:hidden;*/
+    box-shadow: 1px 1px 1px #ddd;
+}
+
+#main-nav ul ul li { /* this targets all submenu items */
+    float: none; /* overwriting our float up above */
+    width: 100%; /* set to the width you want your sub menus to be. This needs to match the value we set below */
+    /*color:blue;*/
+}
+
+
+#main-nav li:hover > ul.sub-menu {
+    display:block;
+}
+
+#main-nav ul ul li ul {
+        /* target all second, third, and deeper level sub menus */
+    left: 400px; /* this needs to match the sub menu width set above -- width + padding + borders */
+    top: -5px; /* this ensures the sub menu starts in line with its parent item */
+}
+
+
+nav.menu {
+    display: none;
+}
+
+div#main-nav ul#menu-menu-1.menu.main-site-nav.container li#menu-item-2484.menu-item-2484.show-in-footer {
+    display:none!important;
+}
+
+/*.menu-item a:active, .menu-item .current-menu-itema:visited, {*/
+    /*background-color: transparent;*/
+/*}*/
+
+div#main-nav ul#menu-menu-1.menu.main-site-nav.container .current_page_item a{
+    background-color:transparent;
+    color: #000!important;
+}
+
+div#main-nav ul#menu-menu-1.menu.main-site-nav.container .current_page_item a:hover {
+    background-color:#f00;
+color:#fff!important;
+}
+
+div.footer-navigation-menu.container ul#menu-menu-2 .menu-item-2484.show-in-footer {
+    display:block!important;
+}
+
+/*mmenu styles**/
+
+#mm-0 {
+    /*top: 1px !important;*/
+    z-index: 1000!important;
+
+}

@@ -1,0 +1,1262 @@
+
+@media screen and (max-width: 768px) and (min-width:768px) {
+
+    .news-and-views, .work-around-the-globe, .canadian-programs {
+        background-size:contain!important;
+    }
+
+    .be-a-lifeline.you-can-help-link .link-details h2 a{
+        font-size:30px!important;
+    }
+
+    .be-a-lifeline.you-can-help-link .link-details p a{
+        font-size: 23px!important;
+    }
+
+    .row.footer-nav-container-outer {
+        display:block;
+    }
+}
+/***Tablets**/
+
+@media screen and (max-width: 768px) {
+    #mobile-menu-btn {
+      display:inline-block;
+        float:left;
+    }
+
+    div#icegram_message_1967 {
+        /*max-width: 800px;*/
+        width:100%!important;
+        /*max-width:auto!important;*/
+    }
+
+    .ceo-profile-img {
+    float:none;
+    clear:both;
+
+    }
+    .ceo-profile-img figure {
+        /*width:auto;*/
+        width: 100%!important;
+        margin-left: 0px;
+    }
+
+    .contact-column {
+        padding:0px;
+    }
+
+    .footer-navigation-menu .menu-parent-item {
+        width:100%!important;
+    }
+
+    .button-outer {
+        text-align: center;
+        float: none;
+    }
+
+    .entry-content-item h2 {
+        text-align: center;
+    }
+
+
+
+
+    .tag-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .tag-item a {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .whats-happening-details {
+        min-height:auto!important;
+        min-height: 0px!important;
+    }
+
+
+    div.publications-title {
+        margin-top: 0px;
+    }
+    .publications-thumb {
+        margin-bottom: 20px;
+        float: left;
+    }
+
+    .publications-thumb img {
+        width: 130px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .timeline, #content .timeline {
+        margin-top:80px;
+    }
+
+    #tl1 .timeline_line, #content #tl1 .timeline_line {
+        display:none;
+    }
+
+    .post-type-archive-publication h3.page-title{
+        text-align: center;
+    }
+
+    body {
+        /*padding-top: 160px!important;*/
+    }
+
+    .careers-image-header img {
+        max-height:500px;
+        height:auto;
+        width:100%;
+    }
+
+.main-site-header-outer {
+    position: fixed;
+    top: 0px;
+    z-index: 5000;
+}
+
+    .logo-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    body {
+        /*padding-top:200px;*/
+    }
+
+    div.img-container img {
+        width: 100%;
+    }
+
+    .mobile-donate-button{
+        float:right;
+        display:inline-block;
+    }
+.entry-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+    .where-money-goes-container img{
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .primary-site-header {
+        /*padding-left: 10px;*/
+        /*padding-right: 10px;*/
+        width:100%;
+    }
+
+    .site-nav.main-site-nav {
+        display:none;
+    }
+
+    #my-menu .menu {
+        display:none;
+    }
+
+    .widget.shailan-dropdown-menu-widget {
+        display:none;
+    }
+
+    /*.logo-container {*/
+        /*width:100%;*/
+    /*}*/
+
+    .header-paragraph {
+        display: block;
+        overflow: hidden;
+        margin-top:0px;
+    }
+
+    .news-and-views, .work-around-the-globe, .canadian-programs {
+        background-size:cover;
+    }
+
+
+    .imagine-canada-container {
+        text-align:center;
+    }
+    .where-money-goes-container img {
+        width:auto;
+    }
+    .right-footer {
+        float:none;
+        clear:both;
+    }
+
+    .action-buttons-footer {
+        text-align: center;
+    }
+
+    .footer-nav {
+        text-align: center;
+    }
+
+    .footer-img-container img {
+        text-align:center
+    }
+
+
+    div.logo-container {
+        text-align: center;
+        padding-left: 10px;
+    }
+}
+
+
+
+/***Tablets Landscape**/
+@media screen and (min-width: 992px) and (max-width:992px) {
+
+/***landscape stuff***/
+
+    .more-details a.red-action {
+        font-weight:normal!important;
+    }
+
+    /*#main-nav {*/
+        /*display:none;*/
+    /*}*/
+}
+
+/***Tablets Portrait**/
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    #mobile-menu-btn {
+        display:inline-block;
+        float:left;
+        /*margin-top: 20px;*/
+    }
+    .row.footer-nav-container-outer {
+        display:block;
+    }
+
+    div.accountability-page .chart-legend {
+        min-width:350px;
+    }
+
+   div.accountability-page .label{
+       margin-left:0px;
+       margin-right:0px;
+   }
+
+
+    .footer-navigation-menu .menu-parent-item {
+        width:50%!important;
+    }
+
+    h2.ceo-page {
+        padding: 0 50px;
+        line-height: 1.1em;
+    }
+
+    .more-details a.red-action {
+        font-weight:normal!important;
+    }
+
+    .main-content-area .main-content-area-inner p{
+        font-size:23px!important;
+    }
+
+    .mobile-donate-button{
+        float:right;
+        /*margin-top: 20px;*/
+    }
+
+    div.entry-content>blockquote, div.red-sidebar {
+        margin-bottom:50px;
+        margin-left:0px;
+    }
+
+    #content.container .container, #content.container {
+        padding-left:0px;
+        padding-right:0px;
+    }
+
+    .entry-content p, .entry-content h1, .entry-content h2, .entry-content h3 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .wp-caption-text {
+        text-align:center;
+    }
+    body {
+        line-height:1.2;
+        padding-top:150px;
+    }
+    .site-nav.main-site-nav {
+        display:none;
+    }
+
+    #my-menu .menu {
+        display:none;
+    }
+
+
+    .widget.shailan-dropdown-menu-widget {
+        display:none;
+    }
+
+    .logo-container {
+        float: none;
+        width: auto;
+        text-align: center;
+    }
+
+    .header-paragraph {
+        display: block;
+        overflow: hidden;
+        margin-top:0px;
+    }
+
+    .news-and-views, .work-around-the-globe, .canadian-programs {
+        background-size:contain;
+    }
+
+    .imagine-canada-container {
+        text-align:center;
+    }
+    .where-money-goes-container img {
+        width:auto;
+
+    }
+    .right-footer {
+        float:none;
+        clear:both;
+    }
+
+    .action-buttons-footer {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .address-section {
+        margin-bottom:50px;
+    }
+
+    .blurb-footer p {
+        font-size:13px;
+    }
+    .footer-nav {
+        text-align: center;
+    }
+
+    .footer-img-container img {
+        text-align:center
+    }
+
+    .action-buttons-footer a.donate-now {
+        margin-right:0px;
+    }
+
+    /*.save-international-infographic img{*/
+        /*display:blo;*/
+    /*}*/
+
+    #mobile-menu-btn {
+        float: left;
+        margin-top:20px;
+    }
+
+    .main-content-area p {
+        font-size: 23px;
+    }
+    .mobile-donate-button{
+        display:block;
+        float:right;
+        margin-top:20px;
+    }
+
+    .be-a-lifeline.you-can-help-link .link-details h2 a, .their-story.you-can-help-link .link-details h2 a{
+        font-size:30px!important;
+    }
+
+    .be-a-lifeline.you-can-help-link .link-details p a, .their-story.you-can-help-link .link-details p a{
+        font-size: 20px!important;
+    }
+
+    .link-details {
+        height: 125px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    div.whats-happening-details h3 {
+        font-size: 18px!important;
+    }
+
+
+    .accountability-img h3 {
+        font-size: 25px;
+    }
+
+    .accountability-page .where-money-goes-container h3 {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .logo-container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .icons-section .global-goals-tiny-img img{
+        display:none;
+    }
+
+    .ceo-profile-img figure {
+        width:auto;
+        margin-right: 0px;
+    }
+    .site-nav-black li {
+        float:none;
+        clear:both;
+    }
+
+    .tag-item a {
+         display: inline;
+        width: 20%;
+        width: auto;
+        /* margin: 0 auto; */
+        text-align: center;
+        /* display: inline-block; */
+        /* float: left; */
+    }
+
+    .tag-item {
+        float: left;
+        display: inline-block;
+    }
+
+    #at-share-dock {
+        display: none!important;
+
+    }
+
+    blockquote.who-we-are {
+        margin-bottom:20px!important;
+    }
+
+    blockquote.who-we-are>p{
+        line-height: 1.7!important;
+    }
+
+    #chartdiv {
+        max-height: 200px;
+    }
+    /*.site-nav-black {*/
+        /*display: none;*/
+    /*}*/
+    .height-paragraphs {
+        width:100%!important;
+    }
+
+    .blockquote {
+        margin-bottom:20px!impoortant;
+    }
+
+    .bot-margin {
+        margin-bottom:40px;
+    }
+
+    .bot-margin h1{
+        text-align: center;
+    }
+    .bot-margin .learn-more-btn {
+        text-align:center;
+    }
+
+    /*.bot-margin .global-goals-tiny-img {*/
+        /*display:none;*/
+    /*}*/
+    .tag-item {
+        width:auto;
+        margin-bottom: 20px;
+    }
+    /*.tag-item a {*/
+        /*width: 80%;*/
+        /*margin: 0 auto;*/
+        /*display: block;*/
+        /*text-align: center;*/
+        /*margin-bottom:!0px;*/
+    /*}*/
+    .red-action.center.margin-top{
+        margin-top:0px!important;
+    }
+    .wp-caption-text {
+        text-align:center;
+    }
+
+    .top-black-header a {
+        font-size:11px;
+    }
+
+    .top-black-header {
+        width: 100%;
+         float: none;
+        clear:both;
+    }
+    .nav-header-search {
+        margin-left:0px!important;
+        float:left!important;
+    }
+
+
+    .site-nav-black li {
+         padding-right: 0px;
+         padding-left: 0px;
+    }
+
+    div.entry-content>blockquote, div.red-sidebar {
+        margin-left:0px;
+        margin-bottom:0px;
+        margin:0px;
+    }
+
+    .blockquote.careers {
+        margin-bottom: 20px;
+    }
+
+
+    div.red-sidebar {
+        margin-bottom: 20px;
+    }
+
+    .post-type-archive-publication .page-header p {
+        padding:0px 20px;
+    }
+
+    .publications-thumb img {
+        width:130px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .publications-thumb {
+        margin-bottom: 20px;
+        float: none;
+        cear:both;
+
+    }
+    .publications-item-container {
+        text-align: center;
+    }
+    .publications-thumb a{
+        display:block;
+    }
+
+    div.publications-title {
+        margin-top:0px;
+    }
+    .careers-image-header img {
+        width:100%;
+        height:auto;
+    }
+
+    .mobile-donate-button a {
+        padding: 4px 8px;
+        display: block;
+        /* height: 40px; */
+        background-color: #f00;
+        border-radius: 3px;
+        color: #fff!important;
+        font-weight: bold;
+        font-size: 15px;
+        text-transform: uppercase;
+        /* text-align: center; */
+        /* text-align: center!important; */
+        /* width: 150px; */
+        float: right;
+        width:auto;
+    }
+
+    .row.footer-nav-container-outer {
+        display:none;
+    }
+    .right-footer {
+        float:none;
+        clear:both;
+    }
+
+    .link-details h2 {
+        font-size: 26px;
+    }
+
+    .link-details p {
+        font-size: 20px
+    }
+
+
+
+
+    body {
+        padding-top: 110px!important;
+    }
+
+    .entry-content h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .main-outer {
+
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    .logo-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .home-action {
+        padding: 15px;
+    }
+
+    .home-action h2 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    .home-action a {
+        padding: 5px 20px;
+        width: auto;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: lighter;
+    }
+    h2.ceo-page {
+        line-height: 1.1em;
+        padding: 0 20px;
+    }
+
+
+    .address-section {
+        /*margin-bottom: 50px;*/
+    }
+
+    .main-content-area .red-title {
+        font-size:40px;
+    }
+
+    p, .main-content-area-inner p {
+        font-size: 1em;
+    }
+
+    .ceo-profile-img figure {
+
+width:auto!important;
+    }
+
+    .ceo-profile-img {
+        float:none;
+        clear:both;
+    }
+
+    .whats-happening h2 {
+        text-align: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        /* margin-top: 40px; */
+        margin-bottom: 18px;
+        /* margin-bottom: 20px; */
+        margin-top: 0px;
+    }
+
+    h1.entry-title, .entry-content h1 {
+        font-size: 25px;
+    }
+
+    #content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .logo-container {
+        margin-top: 0px;
+        /*padding-left: 0px;*/
+        padding-left: 10px;
+    }
+    .action-buttons-footer {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #mobile-menu-btn {
+        float:left;
+        padding-left: 0px;
+    }
+
+    .mobile-donate-button {
+        float:right;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+
+    .footer-nav {
+        text-align:center;
+    }
+
+    .news-and-views, .work-around-the-globe, .canadian-programs {
+        background-size:cover;
+        background-position: top center;
+    }
+
+    .action-buttons-footer a.donate-now {
+        margin-right:0px;
+    }
+    .imagine-canada-container {
+        text-align:center;
+    }
+
+
+    section.whats-happening div.info-div {
+        margin-bottom: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .whats-happening-details{
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+
+    .post-thumbnail{
+        margin: 0 auto;
+        float:none;
+        clear:both;
+    }
+
+    .entry-title {
+        text-align: center;
+    }
+
+    h3.footer-nav-header.footer-links-nav-menu {
+        display: block;
+        float: none;
+        clear: both;
+        text-align: center;
+    }
+
+    /*div.featured-image-internal div.post-thumbnail {*/
+        /*max-height:200px;*/
+        /*min-height:300px;*/
+    /*}*/
+
+    .anchor-containers a {
+        display: block;
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    .centered-container-outer .inner-container {
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+    }
+
+    .centered-container-outer .inner-container .anchor-containers {
+    margin: 0 auto;
+    }
+}
+
+/**From large tablet to tiniest mobile device */
+
+@media screen and (min-width:320px ) and (max-width:992px){
+
+    .anchor-containers a {
+        display: block;
+        float: none;
+        margin-bottom: 10px;
+    }
+
+
+    .legend-inner {
+        margin: 0 auto;
+        width: 85%;
+    }
+
+
+    .main-site-header-outer {
+        position: fixed;
+        top: 0px;
+        z-index: 500;
+        width: 100%;
+    }
+	
+	div.member-img {
+	    top: -15px;
+	    right: -35px;
+	}
+	
+	.member-outer-container {
+	    padding-top: 20px;
+	}
+
+    div.accountability-page .label{
+        margin-left:0px;
+        margin-right:0px;
+    }
+
+    div.accountability-page .chart-legend {
+        min-width:350px;
+    }
+
+    .mm-menu {
+        z-index:1000;
+    }
+
+    .primary-site-header {
+        background-color: #fff;
+        border-bottom: 1px solid #ddd;
+        width:100%;
+    }
+    /*body {*/
+        /*padding-top: 230px;*/
+    /*}*/
+
+    .chart-legend p {
+        margin-left:0px;
+        margin-right:0px;
+    }
+
+
+    .centered-container-outer .inner-container {
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+    }
+
+    .centered-container-outer .inner-container .anchor-containers {
+        /*min-width: 80%; */
+        margin: 0 auto;
+        /* max-width: 80%; */
+    }
+
+    .entry-content p, .entry-content h2, .entry-content h3{
+        margin-left:20px;
+        margin-right:20px;
+    }
+
+
+    h2.ceo-page {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        float: none;
+        clear: both;
+        margin-left: 0px!important;
+    }
+    .wp-caption-text {
+        text-align:center;
+    }
+
+    .more-details a.red-action {
+        font-weight:normal!important;
+    }
+
+
+    .featured-image-internal{
+        max-height:400px;
+    }
+
+    .page-header p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width:768px){
+    .news-and-views, .work-around-the-globe, .canadian-programs {
+        background-size: cover;
+        /*background-position: top center;*/
+        background-position: top center;
+    }
+
+    div.center.img-container {
+        margin-bottom: 20px;
+    }
+
+
+
+    .icons-section .row {
+        margin-top: 0px!important;
+    }
+    .icons-section .global-goals-tiny-img img{
+        display:none;
+    }
+    .wp-caption-text {
+        text-align:center;
+    }
+
+
+    .page-id-1838 .global-goals-tiny-img {
+        text-align:center;
+
+    }
+
+    .page-id-1838 .global-goals-tiny-img img {
+        width: 50%;
+        height: auto;
+        padding: 10px;
+    }
+
+
+    h2.ceo-page {
+        /*padding: 0 20px;*/
+        width: 100%;
+        float: none;
+        clear: both;
+    }
+
+    body {
+        padding-top: 155px;
+    }
+
+    .main-outer {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    div.entry-content>blockquote, div.red-sidebar {
+        margin-bottom:50px;
+        margin-left:0px;
+        margin:0px;
+    }
+
+    div.red-sidebar {
+        margin-bottom: 30px;
+    }
+    #main-nav {
+        display:none;
+    }
+
+    .post-thumbnail {
+        margin: 0 auto;
+    }
+
+
+    .address-section {
+        margin-bottom: 50px;
+    }
+
+   .button {
+       font-weight: normal;
+   }
+
+
+
+    section.whats-happening div.info-div {
+        margin-bottom: 40px;
+    }
+
+    .whats-happening-details{
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+
+    .accountability-img {
+        margin-bottom: 60px;
+    }
+
+    h3.footer-nav-header.footer-links-nav-menu {
+        display: block;
+        float: none;
+        clear: both;
+        text-align: center;
+    }
+
+    .anchor-containers a {
+        display: block;
+        float: none;
+        margin-bottom: 10px;
+    }
+
+
+
+    .centered-container-outer .inner-container {
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+    }
+
+    .centered-container-outer .inner-container .anchor-containers {
+        /*min-width: 80%; */
+        margin: 0 auto;
+        /* max-width: 80%; */
+    }
+
+
+    #mobile-menu-btn {
+        float:left;
+    }
+}
+
+/*largest sized screens*/
+@media screen and (min-width:1200px){
+    #my-menu .menu {
+        display:none;
+    }
+}
+
+
+.mm-listview.mm-vertical
+    .donate-mmenu {
+    background-color: #f00;
+    color: white;
+}
+
+.at-follow-label {
+    color: #fff;
+    font-weight: bold;
+}
+
+.whats-happening-details {
+
+min-height:126px;
+
+}
+
+@media screen and (min-width:768px) and (max-width:1400px) {
+    .whats-happening-details {
+        min-height:126px;
+    }
+}
+
+@media screen and (min-width:978px){
+
+    .top-black-header {
+        padding-left: 0px;
+        display: inline-block;
+        list-style: none;
+        float: left;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    .top-black-header a {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .site-nav-black li {
+        padding-left:0px;
+        padding-right:0px;
+    }
+
+    .nav-header-search {
+        float: left;
+        display: inline-block;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+/*under 1200 px**/
+@media screen and (min-width:992px) and (max-width:1200px){
+    ul.dropdown li a{
+        font-size:21px!important;
+    }
+
+    li.menu-item ul li a{
+        font-size:21px!important;
+    }
+
+    ul.dropdown li.parent>a {
+        padding-bottom:0px;
+    }
+
+    .top-black-header a {
+        font-size:15px;
+    }
+
+
+    .where-money-goes-container img {
+        width:auto;
+    }
+
+    .right-footer, .footer-img-container {
+        text-align: right;
+    }
+
+    .action-buttons-footer a.donate-now {
+        margin-right: 0px;
+    }
+
+    .action-buttons-footer {
+        margin-bottom: 30px;
+    }
+
+
+    li.menu-item ul li a{
+        font-size:21px!important;
+    }
+    ul.dropdown li.parent>a {
+        padding-bottom:0px;
+    }
+
+    .top-black-header a {
+        font-size:15px;
+    }
+}
+
+@media screen and (max-width:1200px){
+
+    .centered-container-outer .inner-container .anchor-containers {
+        min-width: 80%;
+        margin: 0 auto;
+        /* max-width: 80%; */
+    }
+
+    #main-nav ul li a {
+        font-size:17px;
+    }
+
+    .publications-thumb a {
+        display: block;
+    }
+
+    div.accountability-page.where-money-goes-container h3 {
+        font-size: 17px;
+    }
+
+
+    div.accountability-page .chart-legend {
+        width:264px;
+    }
+
+    div.accountability-page .graph-label {
+        font-size:18px;
+    }
+
+    .accountability-page .where-money-goes-container img {
+        width:auto;
+    }
+
+}
+
+@media screen and (max-width:1200px) and (min-width:480px){
+
+    .publications-thumb img {
+        width: 130px;
+        display: block;
+        text-align: center;
+        /*margin: 0 auto;*/
+        margin-bottom: 20px;
+    }
+
+    div.publications-title {
+        margin-top:80px;
+    }
+
+}
+
+
+
+@media screen and (max-width:992px){
+    .footer-navigation-menu ul li.page_item_has_children {
+        width:100%;
+        float:none;
+        clear:both;
+        text-align:center;
+    }
+
+    .accountability-img {
+        margin-bottom:30px;
+        border:0px;
+    }
+
+
+    .emergencies-img{
+        float:none;
+        clear:both;
+    }
+
+    .page-id-1838 .global-goals-tiny-img {
+        text-align:center;
+
+    }
+
+    .page-id-1838 .global-goals-tiny-img img {
+        width: 50%;
+        height: auto;
+        padding: 10px;
+    }
+
+    #main-nav {
+        display:none;
+    }
+
+    .top-black-header {
+
+        display:none;
+    }
+
+    .nav-header-search {
+        float: right;
+        display: inline-block;
+        margin-left: 30px;
+    }
+
+    /*body {*/
+        /*padding-top: 100px;*/
+    /*}*/
+}
+
+
+@media screen and (max-width:1200px) and (min-width:992px){
+    .centered-container-outer .inner-container .anchor-containers {max-width: 100%;
+    }
+}
+
+
+/* Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape)
+{
+    /*#main-nav {*/
+        /*display:none;*/
+    /*}*/
+
+    #main-nav ul li a {
+        display: inline-block;
+        height: 30px;
+        line-height: 1.4;
+        color: #000!important;
+         padding: 0px 30px;
+        margin-bottom: 10px;
+        /* padding: 6px 12px; */
+        font-size:16px;
+    }
+
+    .menu-parent-item>a:after {
+        display:block;
+        overflow:hidden;
+    }
+
+}
+

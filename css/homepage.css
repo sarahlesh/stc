@@ -1,0 +1,169 @@
+.change-the-world {
+    background-color:#FF0000;
+}
+
+.be-informed {
+    background-color: #336666;
+}
+
+.gifts-of-joy {
+    background-color:#669933;
+}
+
+.home-action a, .home-action .button{
+    padding:10px 5px;
+    border-radius:3px;
+    border:2px solid #fff;
+    text-transform:uppercase;
+    display: inline-block;
+    color:#fff;
+    padding: 10px 20px;
+    max-width: 210px;
+    width: 210px;
+    margin-top: 30px;
+    /*font-size:28px;*/
+    font-weight:bold;
+}
+
+
+
+#primary {
+    width: 100%!important;
+    overflow: hidden!important;
+}
+
+body.home {
+    width:100%;
+}
+
+.action-area {
+    margin-top: 50px;
+    /*max-width: 100%;*/
+    /*overflow: hidden;*/
+}
+
+.homepage-container .action-area {
+    margin-top:0px;
+}
+
+.slider-text {
+    2px 2px 5px rgba(0,0,0,0.60);
+}
+
+.link-details a{
+    display:block;
+}
+
+.home-action h2{
+    text-transform: uppercase;
+    /* font-family: 'Gill-Sans'; */
+    color: #fff;
+    font-weight:lighter;
+    font-size: 30px;
+    /*font-weight: lighter;*/
+    display: block;
+}
+
+
+.home-action {
+    text-align: center;
+    padding: 30px;
+}
+
+.main-content-area .red-title {
+    color:#FF0000;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*text-transform: lowercase;*/
+    text-transform:capitalize;
+}
+
+.no-caps {
+    text-transform:none;
+}
+
+.main-content-area-inner{
+    text-align:center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+.link-details a{
+    color:white;
+}
+.main-content-area-inner p{
+    /*width: 80%;*/
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: Gill_sans;
+}
+
+.you-can-help {
+    /*height: 580px;*/
+    overflow: hidden;
+    position: relative;
+}
+
+.you-can-help-link {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.be-a-lifeline{
+    background-image: url('../img/be-a-lifeline.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height:400px;
+}
+
+
+
+.their-story{
+    background-image:url('../img/their-story.jpg');
+    /*background-image: url('../img/be-a-lifeline.jpg');*/
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-size: cover;
+    height:400px;
+}
+
+.link-details {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.link-details h2{
+    /*font-size:50px;*/
+    /*color:white;*/
+    /*margin-bottom: 10px;*/
+    /*text-transform:uppercase;*/
+
+    font-size: 44px;
+    color: white;
+    /* margin-bottom: 10px; */
+    text-transform: uppercase;
+}
+
+.link-details p{
+    color:white;
+    font-size:28px;
+}
+
+/**notify plugin */
+
+
+div.noty-popup-content img {
+    width: 100%;
+    height: auto;
+}
+
+div.noty-content-wrap {
+padding:0px!important;
+}

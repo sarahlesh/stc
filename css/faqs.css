@@ -1,0 +1,90 @@
+.panel-heading [data-toggle="collapse"]:after
+{
+    font-family: 'Glyphicons Halflings';
+    content: "\e072";
+    float: right;
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+
+    -webkit-transform: rotate(-90deg);
+    -moz-transform:    rotate(-90deg);
+    -ms-transform:     rotate(-90deg);
+    -o-transform:      rotate(-90deg);
+    transform:         rotate(-90deg);
+}
+.panel-heading [data-toggle="collapse"].collapsed:after
+{
+    -webkit-transform: rotate(90deg);
+    -moz-transform:    rotate(90deg);
+    -ms-transform:     rotate(90deg);
+    -o-transform:      rotate(90deg);
+    transform:         rotate(90deg);
+}
+
+div.faqs-outer-container div.inner-container {
+    margin-top: 30px;
+}
+
+
+h4.panel-title a:hover,h4.panel-title a:active  {
+   text-decoration:none;
+}
+
+div.faqs-outer-container .panel-default>.panel-heading{
+    background-color:#f00;
+}
+
+div.faqs-outer-container .panel-default>.panel-heading .panel-title a{
+    color:white;
+}
+
+div.faqs-outer-container div.panel-body {
+    background: #fff;
+}
+
+
+div.faqs-outer-container div.panel-body p {
+    color: #000;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+div.faqs-outer-container .panel-default>.panel-heading .panel-title a {
+    color: white;
+    /*font-size: 1.5em;*/
+    line-height: 0;
+}
+
+div.faqs-outer-container {
+    font-size: 3em;
+    margin: 5px;
+}
+
+div.centered-container-outer p:first-child{
+    margin-bottom:0px;
+}
+div.faqs-outer-container div.inner-container div#who-are-we-outer h4.panel-title a br,
+div.faqs-outer-container div.inner-container div#donations-outer h4.panel-title a br,
+div.faqs-outer-container div.inner-container div#finances-outer h4.panel-title a br,
+div.faqs-outer-container div.inner-container div#media-outer h4.panel-title a br
+{
+    display:none!important;
+}
+
+div.faqs-outer-container h2 {
+    margin-bottom: 30px;
+}
+
+div.faqs-outer-container div.inner-container {
+
+/*margin-top: 100px;*/
+    background: #f2f2f2;
+    padding: 20px;
+}
+
+
+p.media-link{
+    margin-bottom:0px;
+}
